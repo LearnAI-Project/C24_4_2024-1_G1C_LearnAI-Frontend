@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build:
+      context: .
+    image: learn-ia:frontend
+    container_name: frontend
+    ports:
+      - "3000:3000"
